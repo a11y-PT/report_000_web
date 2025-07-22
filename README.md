@@ -3,7 +3,7 @@
 - Proprietário: [Inserir proprietário]
 - Candidatura a: Selo [Inserir Bronze, Prata ou Ouro]
   
-## Relatório da auditoria: [Consultar aqui](https://unidade-acesso.github.io/report_00X/reporte_report_00X.html)
+## [Relatório da Auditoria da (Nome da Entidade)](https://unidade-acesso.github.io/report_00X/reporte_report_00X.html)
 
 ### Recursos de apoio ao relatório:
 - [Guia de utilização do relatório das auditorias](https://unidade-acesso.github.io/reports/guia-utilizacao-relatorio-auditoria.html)
