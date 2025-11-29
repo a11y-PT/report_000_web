@@ -27,7 +27,7 @@
   description: Requisito Conforme
 - name: outras violações
   color: "5319e7"
-  description: 
+  description: ""
 - name: R 1.1
   color: "0052cc"
   description: Requisito 1.1
