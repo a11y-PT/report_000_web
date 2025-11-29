@@ -22,7 +22,8 @@ jobs:
         run: npm install -g github-label-sync
 
       - name: Apply labels
-        run: |
-          github-label-sync --labels .github/labels/labels.yml
+        run: |          
+          github-label-sync --labels .github/labels/labels.yml ${{ github.repository }}
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
