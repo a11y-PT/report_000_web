@@ -12,7 +12,7 @@ seal: "_Ouro_"                          # Entre as aspas escreve Bronze, Prata o
 - URL: {{ page.uri }}
 - Propriedade: {{ page.owner }}
 - Candidatura: {{ page.seal }}
-  
+
 ## Relatório de Auditoria
 
 Consulte aqui a última atualização: [Relatório do {{ page.website }}](report.html)
