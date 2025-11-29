@@ -5,6 +5,7 @@ url: "https://dominio_sitio_web.pt"   # domínio do website
 owner: "ARTE_IP"                      # entidade a quem pertence o website
 seal: "Ouro"                          # Bronze, Prata ou Ouro
 ---
+
 # {{ website }}
 
 - Data de criação: {{ date }}
