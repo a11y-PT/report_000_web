@@ -1,6 +1,6 @@
 ---
 website: "Nome do sítio Web"          # Designação do website
-date: "dd/mm/aaaa"                    # data de criação
+date: "29/11/2025"                    # data de criação
 url: "https://dominio_sitio_web.pt"   # domínio do website
 owner: "ARTE_IP"                      # entidade a quem pertence o website
 seal: "Ouro"                          # Bronze, Prata ou Ouro
