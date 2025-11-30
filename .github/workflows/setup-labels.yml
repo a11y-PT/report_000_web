@@ -28,7 +28,7 @@ jobs:
 
       - name: Apply labels
         run: |          
-          github-label-sync --labels .github/labels/labels.yml ${{ github.repository }}
+          github-label-sync --labels .github/labels/labels.yml --token ${{ secrets.LABELS_TOKEN }}
 
         env:
           GITHUB_TOKEN: ${{ secrets.LABELS_TOKEN }}
