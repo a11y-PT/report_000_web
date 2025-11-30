@@ -23,6 +23,10 @@ jobs:
         with:
           node-version: 18
 
+# Step temporária para testar se o secret está acessível
+      - name: Test secret
+        run: echo "${{ secrets.LABELS_TOKEN }}"
+
       - name: Install GitHub Label Sync
         run: npm install -g github-label-sync
 
