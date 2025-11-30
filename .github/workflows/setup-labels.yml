@@ -3,26 +3,22 @@ name: Setup labels
 permissions:
   contents: write
   issues: write
-  actions: write
 
 on:
   push:
     branches:
       - main
-  repository_dispatch:  # Permite disparar manualmente
+  repository_dispatch:
 
 jobs:
   labels:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout do repositório
-      - name: Check out repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      # 2️⃣ Aplicar labels usando EndBug/label-sync
       - name: Apply labels
         uses: EndBug/label-sync@v2
         with:
           config-file: .github/labels/labels.yml
-          token: ${{ secrets.LABELS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           delete-other-labels: false
