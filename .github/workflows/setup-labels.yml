@@ -19,17 +19,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Setup Node.js (não é estritamente necessário para EndBug, mas mantém se quiseres)
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      # 3️⃣ Step temporária para testar se o secret está acessível
-      - name: Test secret
-        run: echo "${{ secrets.LABELS_TOKEN }}"
-
-      # 4️⃣ Aplicar as labels com EndBug/label-sync
+      # 2️⃣ Aplicar labels usando EndBug/label-sync
       - name: Apply labels
         uses: EndBug/label-sync@v2
         with:
