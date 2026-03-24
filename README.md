@@ -18,15 +18,15 @@ seal: "_Ouro_"                          # Entre as aspas escreve Bronze, Prata o
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório do {{ page.website }}](report.html)
+Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="ddmmaaaa_report.html">(dd/mm/aaaa). Relatório do {{ page.website }}</a></li>
+    <li><a href="ddmmaaaa_report.html">(dd/mm/aaaa). Relatório {{ page.website }}</a></li>
   </ul>
 </details>
 
 <hr>
 
-<p><small>ARTE, I.P. - GitTemplateReports (v.1.0.3)</small></p>
+<p><small>2025 - 2026, GitTemplateReports (v.1.0.4)</small></p>
