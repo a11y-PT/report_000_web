@@ -1,5 +1,5 @@
 name: "R 3.2 - Transação"
-description: "requisito  3.2, checklist Transação"
+description: "Resposta, confirmar sucesso da ação"
 title: "R 3.2 - Transação"
 labels:
   - chk transação

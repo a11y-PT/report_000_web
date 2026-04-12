@@ -1,5 +1,5 @@
 name: "R 2.4 - Transação"
-description: "requisito  2.4, checklist Transação"
+description: "Campos, identificação de campos obrigatórios"
 title: "R 2.4 - Transação"
 labels:
   - chk transação
