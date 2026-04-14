@@ -5,6 +5,8 @@ uri: "https://dominio_sitio_web.pt"   # Entre as aspas escreve o domínio do web
 a11y_statement: "https://dominio_sitio_web.pt/acessibilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "Nome_do_proprietário"         # Entre as aspas escrever o nome do owner do website
 seal: "_Ouro_"                          # Entre as aspas escreve Bronze, Prata ou Ouro
+validity: "31/12/1999 a 31/12/2000" # Entre as aspas escrve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "" # 
 ---
 
 # {{ page.website }}
@@ -13,6 +15,8 @@ seal: "_Ouro_"                          # Entre as aspas escreve Bronze, Prata o
 - URL: {{ page.uri }}
 - Propriedade: {{ page.owner }}
 - Candidatura: {{ page.seal }}
+- Validade do selo: {{ validity }}
+- Estado: {{ status }}
 
 ## Relatório de Auditoria
 
