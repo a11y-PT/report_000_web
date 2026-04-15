@@ -15,8 +15,8 @@ status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opçõ
 - URL: {{ page.uri }}
 - Propriedade: {{ page.owner }}
 - Candidatura: {{ page.seal }}
-- Validade do selo: {{ validity }}
-- Estado: {{ status }}
+- Validade do selo: {{ page.validity }}
+- Estado: {{ page.status }}
 
 ## Relatório de Auditoria
 
